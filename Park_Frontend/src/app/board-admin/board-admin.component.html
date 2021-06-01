@@ -1,0 +1,25 @@
+<!-- Admin creates games -->
+
+<div class="container">
+     
+      <p class="title">Hello Admin !</p>
+
+      <form class="form" [formGroup]="addGameForm">
+        <legend> Add a new game </legend>
+        <label>Name</label><br><input type="text" formControlName="name">
+        <br><hr>
+        
+        <label>Description</label><br><textarea minlength="10" formControlName="description"></textarea>
+        <br><hr>
+
+        <label>Price</label><br><input type="number" formControlName="price">
+        <br><hr><br>
+
+        <button (click)="saveGame()" class="submitButton">Save</button>
+
+      </form>
+
+ 
+
+</div>
+ 

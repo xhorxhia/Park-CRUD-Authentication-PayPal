@@ -1,0 +1,62 @@
+
+.container{
+    background-color: rgb(243, 152, 66);
+    display:flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.form{
+    justify-content: center;
+    width: 20%;
+    height: 10%;
+    padding-left: 5%;
+    padding-top: 5%;  
+    padding-bottom: 28%;  
+}
+
+.fieldset{
+    background-color: #72bb77;
+    border-radius: 1%;
+    border-color:rgb(5, 67, 104);
+    border-style:dotted;
+    border-width: 5px;
+}
+
+.fieldset legend{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color:  rgb(5, 67, 104);
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color:   rgb(5, 67, 104); 
+}
+
+.pics{
+    display:flex;
+    justify-content: center;  
+    margin-top: 50%;  
+}
+
+.mario{
+    animation: rotateY 2.5s infinite;
+        margin-left: 10%;  
+}
+
+.ball{
+    animation: rotateX 4s infinite;    
+    margin-left: 90%; 
+}
+
+@keyframes rotateY {
+    from {}
+    to {transform: rotateY(180deg);}
+}
+
+@keyframes rotateX {
+    from {}
+    to {transform: rotateX(180deg);}
+}

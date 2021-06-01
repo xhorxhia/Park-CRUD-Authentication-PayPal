@@ -1,0 +1,60 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    flex-wrap: wrap;
+    background-color: hsl(34, 82%, 56%);
+}
+
+
+.title{
+    text-align: center;
+    margin-left: 35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 170%;
+    color: rgb(13, 60, 80);    
+}
+
+.game{
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 1%;
+    border-color: rgb(13, 60, 80);
+    border-style: solid;
+    background-color:rgb(97, 168, 93);
+    width: 30%;
+}
+
+.delete{
+    margin-left: 70%; 
+    text-align: center;
+    color: rgb(223, 236, 240);
+    background-color: rgb(160, 25, 25);
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+.payBtn{
+    margin-left: 70%; 
+    text-align: center;
+    color: rgb(223, 236, 240);
+    background-color: rgb(13, 60, 80);
+    border: 2px solid #000000;
+}
+
+.name{
+    margin-left: 30%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+    color: rgb(13, 60, 80);  
+}
+
+.description{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+.description{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}

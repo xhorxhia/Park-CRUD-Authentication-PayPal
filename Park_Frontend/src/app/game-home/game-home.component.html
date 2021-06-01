@@ -1,0 +1,24 @@
+<div class="box">
+
+    <div class="game" *ngFor="let g of websocketAPI.myGame.element">
+
+        <div class="name">
+            <p>{{ g.name }}</p>
+            <!-- Do shfaqet vetem nese eshte admin -->
+            <button (click)="delete(g.id)" *ngIf="isAdmin" class="delete">Delete</button>
+        </div>
+        <hr>
+
+        <div class="description">
+            <p>{{ g.description}}</p>
+        </div>
+        <hr>
+
+        <div class="price">
+            <p>{{ g.price}} $</p>
+            <a routerLink="/pay" class="payBtn"> Pay </a>
+        </div>
+
+    </div>
+
+</div>

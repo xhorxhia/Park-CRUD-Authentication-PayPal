@@ -1,0 +1,67 @@
+.box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.title{
+    width: 100%;
+    height:10%;
+    background-color: rgb(97, 168, 93);  
+}
+
+.title p{
+    font-size: 100px;
+    padding-top: 2%;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    animation: pulse-black 2s infinite;
+}
+
+@keyframes pulse-black {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgb(243, 152, 66);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 15px rgb(215, 224, 90);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgb(255, 82, 76);
+    }
+}
+
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 160px; 
+    background-color: rgb(243, 152, 66);
+}
+
+.content a{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(223, 236, 240);
+    background-color: rgb(26, 104, 138);
+    border: 3px solid #000000;
+    text-decoration: none;
+}
+
+
+
+
+  
